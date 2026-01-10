@@ -15,6 +15,12 @@ def load_documents_from_folder(folder_path: str):
     all_documents = []
 
     for filename in os.listdir(folder_path):
+        
+        if not filename.endswith((".pdf", ".txt")):
+            continue
+        
+        print(f"Loading file: {filename}")
+        
         file_path = os.path.join(folder_path, filename)
 
         if filename.endswith(".pdf"):
