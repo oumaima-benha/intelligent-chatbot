@@ -1,0 +1,10 @@
+[
+    {
+        "question": "What is an intelligent chatbot?",
+        "expected_answer": "An intelligent chatbot is a system capable of understanding and responding to user queries using artificial intelligence techniques."
+    },
+    {
+        "question": "What is Retrieval-Augmented Generation?",
+        "expected_answer": "Retrieval-Augmented Generation is a technique that combines document retrieval with language generation."
+    }
+]
