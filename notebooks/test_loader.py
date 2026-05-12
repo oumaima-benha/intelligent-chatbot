@@ -5,10 +5,17 @@ from app.ingestion.loader import load_documents_from_folder
     
     
     
-docs = load_documents_from_folder("data")
+# Load documents from the data folder
+documents = load_documents_from_folder("data")
 
-print(f"Nombre de documents : {len(docs)}")
+# Display number of loaded documents
+print(f"Number of documents: {len(documents)}")
 
-print("\n--- Exemple de document ---\n")
-print(docs[0].page_content[:500])
-print("\nMetadata :", docs[0].metadata)
+# Display sample document content
+print("\n--- Sample Document ---\n")
+print(documents[0].page_content[:500])
+
+# Display document metadata
+print("\nMetadata:")
+print(documents[0].metadata)
+

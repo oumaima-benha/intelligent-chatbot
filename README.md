@@ -403,8 +403,6 @@ Possible next improvements:
 ## License
 
 This project is currently provided for educational and portfolio purposes.  
-You can add your preferred open-source license later if you plan to publish it publicly.
-
 ---
 
 ## If you want to improve this project, here is what you can add or do
